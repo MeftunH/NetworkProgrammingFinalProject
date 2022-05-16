@@ -40,7 +40,7 @@ const RegisterPage = ({ register }) => {
   return (
     <AuthBox>
       <Typography variant="h5" sx={{ color: "white " }}>
-        Create an account
+        Hesap yarat
       </Typography>
       <RegisterPageInputs
         mail={mail}

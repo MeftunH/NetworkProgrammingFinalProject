@@ -9,21 +9,21 @@ const RegisterPageInputs = (props) => {
       <InputWithLabel
         value={mail}
         setValue={setMail}
-        label="E-mail address"
+        label="E-mail adresi"
         type="text"
         placeholder="E-mail adresi gir"
       />
       <InputWithLabel
         value={username}
         setValue={setUsername}
-        label="Username"
+        label="Kullanici adi"
         type="text"
         placeholder="Kullanici adi gir"
       />
       <InputWithLabel
         value={password}
         setValue={setPassword}
-        label="Password"
+        label="Sifre"
         type="password"
         placeholder="Sifre gir"
       />
