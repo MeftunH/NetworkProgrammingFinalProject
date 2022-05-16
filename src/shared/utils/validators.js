@@ -14,15 +14,15 @@ export const validateLoginForm = ({ mail, password }) => {
   };
   
   const validatePassword = (password) => {
-    return password.length > 5 && password.length < 41;
+    return password.length > 5 && password.length < 13;
   };
   
-  const validateMail = (mail) => {
+  export const validateMail = (mail) => {
     const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     return emailPattern.test(mail);
   };
   
   const validateUsername = (username) => {
-    return username.length > 2 && username.length < 41;
+    return username.length > 2 && username.length < 13;
   };
   
